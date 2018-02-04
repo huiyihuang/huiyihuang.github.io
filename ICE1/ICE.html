@@ -1,41 +1,63 @@
+<!--ICE1-Huiyi Huang-->
+<!--Goupe Memeber: Xi Li, Zhiyi Ma, Mu He-->
 <!DOCTYPE html>
 <html lang = 'en'>
   <head>
-	  <title>Homepage</title>
+    <meta charset="utf-8"/>
+	  <title>Huiyi Huang's Page</title>
   </head>
   <body>
-    <h1>Group</h1>
+    <h1>Huiyi Huang's Page</h1>
     <nav>
       <a href="https://xiccli.github.io/ice1/ice.html">Xi Li</a>
       <a href="https://huiyihuang.github.io/ICE1/ICE.html">Huiyi Huang</a>
       <a href="https://mzy11mzy.github.io/ICE/ICE.html">Zhiyi Ma</a>
       <a href="https://bannyhe.github.io/ICE1/ICE.html">Mu He</a>
     </nav>
-	  <form>
-  	  Name:
-		  <input type="text" name="name" id = "name"></label><br>
+	  <form><br/>
+      <fieldset>
+        <legend>Basic Infomation</legend>
+  	  <label for="name">Name:</label>
+		  <input type="text" name="name" id = "name">
+      <br/>
 		  <label for="dob">DOB:</label>
-		  <input type="date" name="DOB" id = "dob"><br><br>
+		  <input type="date" name="DOB" id = "dob">
+    </fieldset>
+      <br/><br/>
 
-		  <strong>Please enter your choice of snack:</strong><br>
+		  <h2><strong>Please enter your choice of snack:</strong></h2>
       <p>A snack is a portion of food, smaller than a regular meal, generally eaten between meals. Snacks come in a variety of forms including packaged snack foods and other processed foods, as well as items made from fresh ingredients at home.</p>
-      <img src="http://ginospizza.com/CMSPages/GetFile.aspx?guid=9014c3e2-b1b0-457b-b619-8b30ff40b9f6&width=100"><br>
-		  <input type="radio" name="snack" value="pizza"> Pizza<br><br><br>
-      <img src="https://yt3.ggpht.com/-NKTDmMo0vqU/AAAAAAAAAAI/AAAAAAAAAAA/9TNDlmwoIs4/s100-c-k-no-mo-rj-c0xffffff/photo.jpg"><br>
-  		<input type="radio" name="snack" value="donut"> Donut<br><br><br>
-      <img src="https://vignette.wikia.nocookie.net/hayday/images/6/69/Seafood_Salad.png/revision/latest/scale-to-width-down/100?cb=20150711220847"><br>
+      <span><img style="width:15%" src="pizza.jpeg" alt = "Pizza"/></span>
+      <span><img style="width:15%" src="donut.jpg" alt="donut"/></span>
+      <span><img style="width:15%" src="vegan.jpg" alt="vegan"/></span>
+      <br/>
+      <br/>
+		  <input type="radio" name="snack" value="pizza"> Pizza 
+  		<input type="radio" name="snack" value="donut"> Donut      
   		<input type="radio" name="snack" value="vegan"> Vegan Stuff<br><br><br>
 
-  		<strong>Please enter your choice of drink:</strong><br>
+  		<h2><strong>Please enter your choice of drink:</strong></h2>
       <p>A drink or beverage is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain water, milk, juices, coffee, tea, and soft drinks. In addition, alcoholic drinks such as wine, beer, and liquor, which contain the drug ethanol, have been part of human culture and development for 8,000 years.</p>
-      <img src="https://img.thrfun.com/img/141/792/french_vanilla_coffee_creamer_ts1.jpg"><br>
-		  <input type="radio" name="snack" value="coffee"> Coffee<br><br><br>
-  		<img src="https://yt3.ggpht.com/-_dfJ5fSVSIc/AAAAAAAAAAI/AAAAAAAAAAA/FdrvAC-Sbic/s100-c-k-no-mo-rj-c0xffffff/photo.jpg"><br>
-      <input type="radio" name="snack" value="tea"> Tea<br><br><br>
-      <img src="http://www.planhillsborough.org/wp-content/uploads/2012/10/glass-of-water.jpg"><br>
+
+      <span><img style="width:15%" src="https://img.thrfun.com/img/141/792/french_vanilla_coffee_creamer_ts1.jpg" alt="Coffe"/></span>
+      <span><img style="width:15%" src="https://yt3.ggpht.com/-_dfJ5fSVSIc/AAAAAAAAAAI/AAAAAAAAAAA/FdrvAC-Sbic/s100-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="Tea"/></span>
+      <span> <img style="width:15%" src="http://www.planhillsborough.org/wp-content/uploads/2012/10/glass-of-water.jpg" alt="Water"/></span>
+      <br/>
+      <br/>
+		  <input type="radio" name="snack" value="coffee"> Coffee
+      <input type="radio" name="snack" value="tea"> Tea
   		<input type="radio" name="snack" value="water"> Water<br><br><br>
 	</form>
-  <p>Sketch</p>
-  <img src="0001.jpg">
+
+<!--   <h2>Different Food and Drink</h2>
+  <video style="width:50%" src="https://youtu.be/LG2y9PrE4Ag" controls="controls"> -->
+    <h2> BMI Caculate</h2>
+    <form oninput="x.value=a.value/b.value/b.value">
+      <input type="number" id="a" value="50">KG / <input type="number" id="b" value="1.65">M = <output name="x" for="a b"></output>
+  </form>
+
+
+  <h2>Sketch</h2>
+  <img style="width:45%" src="0001.jpg" alt="sketch">
   </body>
 </html>
