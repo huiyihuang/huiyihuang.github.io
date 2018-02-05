@@ -13,30 +13,27 @@ header h1 {
 }
 
 nav {
-  /*height: 6vh;*/
   margin: 0px;
   text-align: center;
   background-color: #0e7e12; 
+  height: 6%;
 }
 
 nav ul {
 margin: 0px;
-padding: 0px;
 display: inline-block;
 list-style: none;
-/*height: 6vh;*/
+height: 6%;
 }
 
 nav li
 {
 float:left;
-/*height: 6vh;*/
 }
 
 nav a {
   display: block;
-  /*height: 6vh;*/
-  width: 200px;
+  width: 180px;
   color: #ffffff;
   background-color: #000000;
   text-align: center;
@@ -74,11 +71,13 @@ img{
   width:80%;
 }
 
+footer {
+  vertical-align: center;
+  height: 20%;
+}
+
 .copyright {
-  font-family: Times;
   background-color: green;
   padding: 10px;
   margin: 0px;
-  height: 40px;
-  vertical-align: center;
 }
