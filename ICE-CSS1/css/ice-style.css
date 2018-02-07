@@ -20,15 +20,15 @@ nav {
 }
 
 nav ul {
-margin: 0px;
-display: inline-block;
-list-style: none;
-height: 6%;
+  margin: 0px;
+  display: inline-block;
+  list-style: none;
+  height: 6%;
 }
 
 nav li
 {
-float:left;
+  float:left;
 }
 
 nav a {
