@@ -2,12 +2,20 @@
 <html lang="en">
   <head>
     <title>JavaScript Challenges</title>
+    <style>
+      #emailfield {
+        display: none;
+      }
+    </style>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script>
     $(document).ready(function(){
-      /*    YOUR jQuery CODE HERE */ 
+      $('#emailfield').hide();
+      $("#subscribe").click(function(){
+        $('#emailfield').toggle();
+      });
     }); 
     </script>
   </head>
@@ -18,7 +26,7 @@
         <legend>Email subscriptions</legend>
         <div id="check">
           <label>
-            <input type="checkbox" name="subscribe" id="subscribe" onchange="toggleEmail()">
+            <input type="checkbox" name="subscribe" id="subscribe" >
             Check to toggle the email field.
           </label>
         </div>
