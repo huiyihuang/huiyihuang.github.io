@@ -7,7 +7,16 @@ body {
 	background: #ffffff;
 	color: #111111;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	padding: .5%;
+    width:600px;
+    padding:30px;
+    margin:40px auto;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+
 }
 form{
 	background: #9cbc2c;
@@ -15,7 +24,7 @@ form{
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
 	padding: 2%;
-	width: 50%;
+/*	width: 50%;*/
 }
 
 /* Style the list items*/
