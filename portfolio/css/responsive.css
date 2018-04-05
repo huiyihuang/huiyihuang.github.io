@@ -1,0 +1,38 @@
+@media screen and (min-width: 650px) {
+
+
+.top-nav ul{
+  display: inline-block;
+}
+
+#toggle-icon {
+  display: none;
+}
+
+.menu-icon{
+  border-top:0; 
+}
+
+nav ul li{
+  float: left;
+}
+nav ul li a{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+}
+
+
+
+@media screen and (min-width: 1000px){
+
+.overlay {
+  opacity: 0;  /*very important responsive things*/
+}
+.img-responsive:hover .overlay {
+  opacity: 0.6; 
+}
+
+}
+

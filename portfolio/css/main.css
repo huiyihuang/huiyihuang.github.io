@@ -1,60 +1,134 @@
 html {
 	font-family: verdana, Arial, sans-serif;
 }
+body{
+	color: #4a4a4a;
+}
 h1 {
-	color: black;
+	color: #4a4a4a;
 	text-align: center;
 	font-size: 42px;
 	margin-top: 72px;
+	margin-bottom: 40px;
 }
+
+h2{
+	margin-top: 80px;
+}
+
+p{
+	margin-top: 40px;
+}
+
+/*navigation mobile*/
 nav{
 	text-align: center;
+	margin-bottom: 40px;
 }
-nav ul{
+.top-nav ul{
 	padding-left: 0px;
 	list-style-type: none;
 	display: inline-block;
+	margin:0;
+	display: none;
 }
-nav ul li{
-	float: left;
+
+.top-nav ul li, .menu-icon{
+	border-top: 1px solid #DDDDDA; 
 }
-nav ul li a{
-	font-size: 15px;
-	color: #cccccc; 
+.top-nav ul li a{
+	font-size: 1em;
+	color: #DDDDDA; 
 	text-decoration: none;
-	margin-left: 15px;
-	margin-right: 15px;
-}
-nav a:hover {
-	color: #4a4a4a;
-}
-
-img {
-	width: 100%;
-}
-
-/*.container {
-	display: inline-block;
+	padding: .5em 1em;
+	display: block;
 	text-align: center;
-	margin-top: 3rem;
-}*/
-
-/*.container {
-	display:grid;
-	grid-template-columns:1fr 1fr;
-	grid-gap:20px;
-	align-items:start;
-	justify-items: start;
 }
-.container img{
+.menu-icon a{
+	font-size: 1em;
+	color: #4a4a4a; 
+	text-decoration: none;
+	padding: .5em 1em;
+	display: block;
+	text-align: center;
+}
+
+.top-nav ul li a:hover, .menu-icon a:hover, .top-nav ul li a:focus, .menu-icon a:focus{
+    color: #4a4a4a;
+}
+.top-nav.toggle-open ul{
+	display: block;
+}
+
+
+/*image hover text*/
+.hover_box {
+  position: relative;
+}
+
+.img-responsive {
+	margin-bottom: 40px;
+}
+.container img {
+	width: 100%;
 	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
-	max-width: 100%;
+
 }
-.l2 .l4{
-	grid-column:1/3;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;  /*very important responsive things*/
+  transition: .5s ease;
+  background-color: black;
+  margin-bottom: 40px;
+}
+
+/*.p1:hover .overlay {
+  opacity: 0.3; 
 }*/
 
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
 
+/*footer*/
+footer .social_media {
+	margin-bottom: 30px;
+}
 
+footer {
+	text-align: center;
+	margin-top: 120px;
+}
+
+footer p{
+	font-size: 12px;
+}
+
+footer a {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*content*/
+.main_content {
+	margin: 3%,10%;
+}
+
+.p2 {
+	margin-top: 40px;
+}
 
 

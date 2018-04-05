@@ -5,67 +5,99 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+	 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	 <script type="text/javascript" src="js/main.js"></script>
 	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css">
 </head>
 <body>
+<!-- header: including navigation -->
 	<header>
 		<h1>HUIYI HUANG</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="work.html">WORK</a></li>
-				<li><a href="graphic.html">GRAPHIC DESIGN</a></li>
-				<li><a href="about.html">ABOUT</a></li>
-			</ul>
-		</nav>
-	</header>	
+		<nav id = "top-nav" class="top-nav">
+       		<div class="menu-icon">
+       			<a id="toggle-icon" href="javascript:void(0);" onclick="toggleMenu()">&#9776; Menu</a>
+       		</div>
+	       <ul>
+	            <li><a class="current-page" href="index.html"><span style="color:#4a4a4a">Home</span></a></li>
+	            <li><a href="work.html">Work</a></li>
+	            <li><a href="graphic.html">Graphic Design</a></li>	            
+	            <li><a href="about.html">About</a></li>
+	        </ul>   
+   		</nav>
+	</header>
+
+<!-- main content -->
 <div class="container">
 	<div class="row">
-		<div class="img-responsive col-sm-6">
+		<div class="img-responsive col-lg-6 col-md-12 col-sm-12 col-xs-12">
+		<a href="work.html">
+		<div class="hover_box">
 			<img src="img/home/p1.png">
+			<div class="overlay">
+				<div class="text"> Baby Tracker</div>
+			</div>
+		</div></a>
 		</div>
-		<div class="img-responsive col-sm-6">
+		<div class="img-responsive col-lg-6 col-md-12 col-sm-12 col-xs-12">
+		<a href="work.html">
+		<div class="hover_box">
 			<img src="img/home/p2.png">
+			<div class="overlay">
+				<div class="text">CEW Scholarship</div>
+			</div>
+		</div></a>
 		</div>
-		<div class="img-responsive col-sm-6">
+		<div class="img-responsive col-lg-6 col-md-12 col-sm-12 col-xs-12">
+		<a href="work.html">
+		<div class="hover_box">
 			<img src="img/home/p3.jpg">
+			<div class="overlay">
+				<div class="text">Paired Associate Learning</div>
+			</div>
+		</div></a>
 		</div>
-		<div class="img-responsive col-sm-6">
+		<div class="img-responsive col-lg-6 col-md-12 col-sm-12 col-xs-12">
+		<a href="work.html">
+		<div class="hover_box">
 			<img src="img/home/p4.jpg">
+			<div class="overlay">
+				<div class="text">Chinese Character</div>
+			</div>
+		</div></a>
 		</div>
-		<div class="img-responsive col-sm-6">
+		<div class="img-responsive col-lg-6 col-md-12 col-sm-12 col-xs-12">
+		<a href="work.html">
+		<div class="hover_box">
 			<img src="img/home/p5.png">
+			<div class="overlay">
+				<div class="text">Excessive Internet Gamer</div>
+			</div>
+		</div></a>
 		</div>
 	</div>
 </div>	
 
-<!-- <div class="container">
-	<div class="img">
-		<div class="l1">
-			<img src="img/home/p1.png">
-		</div>
-		<div class="l2">
-			<img src="img/home/p2.png">
-		</div>
-		<div class="l3">
-			<img src="img/home/p3.jpg">
-		</div>
-		<div class="l4">
-			<img src="img/home/p4.png">
-		</div>
-		<div class="l5">
-			<img src="img/home/p5.png">
-		</div>
-	</div>	
-</div> -->
+<!-- footer -->
 	<footer>
-		<p>Phone:734-604-0742</p>
-		<p>Address: 2023 Medford Rd</p>
-		<p>Social Media</p>
-		<p>Huiyi Huang &copy 2018</p>
+		<div class = "social_media">
+		<a class="contact" href="mailto:huanghy@umich.edu">
+			<i class="fas fa-envelope fa-2x" style="color:#4a4a4a"></i>
+		</a>
+		<a class="contact" href="https://github.com/huiyihuang">
+			<i class="fab fa-github fa-2x" style="color:#4a4a4a"></i>
+		</a>
+		<a class="contact" href="https://www.linkedin.com/in/huiyi-huang-8b2073140">
+			<i class="fab fa-linkedin-in fa-2x" style="color:#4a4a4a"></i>
+		</a>
+		</div>
+		<p>Coded and designed by Huiyi Huang &copy 2018</p>
 	</footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+
+</script>
 </body>
 </html>
