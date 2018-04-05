@@ -6,39 +6,69 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
 	 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	 <script type="text/javascript" src="js/main.js"></script>
 	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css">
 </head>
 <body>
+<!-- header: including navigation -->
 	<header>
 		<h1>HUIYI HUANG</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="work.html">WORK</a></li>
-				<li><a href="graphic.html">GRAPHIC DESIGN</a></li>
-				<li><a href="about.html"><span style="color:#4a4a4a">ABOUT</span></a></li>
-			</ul>
-		</nav>
-	</header>	
-	<img src="img/about/1.jpg">
-	<h2>Hello,</h2>
-	<h3>I am Huiyi</h3>
-	<h4>Glad to see you here</h4>
-	<h2>Who Am I</h2>
-	<p>'Ambitious' UX Researcher and Designer:</p>
-	<p>Desire applying my skills shorten the distance between users and high tech.</p>
-	<p>Psych Background Researcher:</p>
-	<p>Obtained great research skills and ways of logical thinking.</p>
-	<p>Passionate Volunteer:</p>
-	<p>Teach in the school for children of migrant laborers.</p>
-	<p>Learning Photographer:</p>
-	<p>Take every meaningful moment in my life.</p>
-	<p>Experienced Badminton Player:</p>
-	<p>Start learning badminton when I was 6 years old.</p>
-	<p>New Technology Addict:</p>
-	<p>Crazy about new technique, especially the electric equipment and games.</p>
-	<p>Piano Lover:</p>
-	<p>Have played piano for 15 years.</p>
+		<nav id = "top-nav" class="top-nav">
+       		<div class="menu-icon">
+       			<a id="toggle-icon" href="javascript:void(0);" onclick="toggleMenu()">&#9776; Menu</a>
+       		</div>
+	       <ul>
+	            <li><a class="current-page" href="index.html">Home</a></li>
+	            <li><a href="work.html">Work</a></li>
+	            <li><a href="graphic.html">Graphic Design</a></li>	            
+	            <li><a href="about.html"><span style="color:#4a4a4a">About</span></a></li>
+	        </ul>   
+   		</nav>
+	</header>
+
+<!-- content -->
+	<div class="container">
+		<div class="col-md-10 offset-md-1">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><img src="img/about/me.jpg"></div>
+  			<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 t2"><h2><span class="t3">Hello,</span></h2><br><h3>I am Huiyi</h3><br><h4>Glad to see you here</h4>
+  			</div>
+		</div>
+		
+			<h2><span class="t3">Who Am I</span></h2>
+			<div class="part">
+				<p><span class="t4">'Ambitious' UX Researcher and Designer:</span></p>
+				<p>Desire applying my skills shorten the distance between users and high tech.</p>
+			</div>
+			<div class="part">
+				<p><span class="t4">Psych Background Researcher:</span></p>
+				<p>Obtained great research skills and ways of logical thinking.</p>
+			</div>
+			<div class="part">
+				<p><span class="t4">Passionate Volunteer:</span></p>
+				<p>Teach in the school for children of migrant laborers.</p>
+			</div>
+			<div class="part">
+				<p><span class="t4">Learning Photographer:</span></p>
+				<p>Take every meaningful moment in my life.</p>
+			</div>	
+			<div class="part">
+				<p><span class="t4">Experienced Badminton Player:</span></p>
+				<p>Start learning badminton when I was 6 years old.</p>
+			</div>
+			<div class="part">
+				<p><span class="t4">New Technology Addict:</span></p>
+				<p>Crazy about new technique, especially the electric equipment and games.</p>
+			</div>
+			<div class="part">
+				<p><span class="t4">Piano Lover:</span></p>
+				<p>Have played piano for 15 years.</p>
+			</div>				
+		</div>
+	</div>
+
+<!-- footer -->
 	<footer>
 		<div class = "social_media">
 		<a class="contact" href="mailto:huanghy@umich.edu">

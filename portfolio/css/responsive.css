@@ -34,5 +34,26 @@ nav ul li a{
   opacity: 0.6; 
 }
 
+.grid-template {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item1 {
+	grid-column: 1/7;
+}
+
+.item2, .item3, .item4 {
+	grid-column:2/6;
+}
+
+.item5, .item7 {
+	grid-column:1/4;
+}
+
+.item6, .item8 {
+	grid-column:4/7;
+}
+
 }
 
