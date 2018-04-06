@@ -16,8 +16,14 @@ h2{
 	margin-top: 80px;
 }
 
+ul li{
+	line-height: 30px;
+/*	margin-top: 20px;*/
+}
+
 p{
 	margin-top: 40px;
+	line-height: 30px;
 }
 
 /*navigation mobile*/
@@ -58,6 +64,19 @@ nav{
 }
 .top-nav.toggle-open ul{
 	display: block;
+}
+.large {
+	display: none;
+}
+
+img.small {
+	max-width: 100px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+header {
+	text-align: center;
 }
 
 
@@ -123,9 +142,9 @@ footer a {
 }
 
 /*content*/
-.main_content {
+/*.main_content {
 	margin: 3%,10%;
-}
+}*/
 
 	/*work*/
 .p2 {
@@ -182,9 +201,28 @@ h3 {
 	font-weight: bold;
 }
 
+	/*background image*/
+.contain-me {
+background: #ffffff url("../img/about/2.jpg") no-repeat right center;
+}
 
+/*work2*/
 
+.p3 {
+	display:flex;
+  	align-items:center;
+}
 
+h4{
+	margin-top: 40px;
+	color: #497a14;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
 
+img.middle-image {
+	box-shadow: none;
+	margin-top: 40px;
+}
 
 

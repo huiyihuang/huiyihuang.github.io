@@ -21,6 +21,14 @@ nav ul li a{
   margin-right: 20px;
 }
 
+.small {
+  display: none;
+}
+
+.large {
+  display: block;
+}
+
 }
 
 
