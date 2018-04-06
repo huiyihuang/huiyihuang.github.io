@@ -225,4 +225,7 @@ img.middle-image {
 	margin-top: 40px;
 }
 
-
+/*fix error*/
+.fix-error{
+	display: none;
+}
