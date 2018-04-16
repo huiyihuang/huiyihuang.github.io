@@ -1,0 +1,22 @@
+body {
+	margin: 0px;
+	background-image: url("../images/background.png");
+}
+
+img {
+	border: 5px solid blue;
+	padding: 5%;
+	width: 50%;
+	box-sizing:border-box;
+	margin: 0px;
+}
+ #self {
+ 	float: left;
+ }
+
+.image {
+	text-align: center;
+}
+.button {
+	display: block;
+}

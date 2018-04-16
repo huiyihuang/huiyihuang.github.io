@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Huiyi Huang's 539 final exam</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script type="text/javascript" src="js/main.js"></script>
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+	<h1>Huiyi Huang</h1>
+	<div class="image">
+	<img id="self" src="images/examPic.jpg" alt="self">
+	<img id="logo" src="images/UMSI-logo.jpg" alt="logo">
+	</div>
+	<div class="button">
+	<input type = "submit" onclick="hideImage()" value = "Hide Image" />
+	<input type = "submit" onclick="seeImage()" value = "Show Image">
+	</div>
+	<!-- javascript -->
+	<script type="text/javascript">
+	function hideImage(){
+    	var x = document.getElementById("self");
+    	x.style.display = "none";
+	} 
+	function seeImage(){
+    	var x = document.getElementById("self");
+    	x.style.display = "block";
+	} 
+    </script>
+</body>
+</html>
