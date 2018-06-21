@@ -16,13 +16,20 @@ h2{
 	margin-top: 80px;
 }
 
+h5 {
+	color: #497a14;
+	font-size: 24px;
+	margin-top: 30px;
+	font-family: Helvetica,sans-serif;
+}
+
 ul li{
 	line-height: 30px;
 /*	margin-top: 20px;*/
 }
 
 p{
-	margin-top: 40px;
+	margin-top: 20px;
 	line-height: 30px;
 }
 
